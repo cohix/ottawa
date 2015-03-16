@@ -1,0 +1,214 @@
+/*
+Theme Name: ottawa
+Theme URI:
+Author: cohix
+Author URI: http://cohix.ca;
+Description: Ottawa WordPress Meetup
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: ottawa
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+h1, h2, h3, h4, h5, h6, p, li
+{
+	font-family: "Roboto";
+}
+
+h1, h3
+{
+	font-weight: 100;
+}
+
+h2, p
+{
+	font-weight: 300;
+}
+
+a
+{
+	color: #3498db;
+	text-decoration: none;
+}
+
+#headerContainer h1
+{
+	font-size: 4em;
+}
+
+#header1
+{
+	font-weight: 300;
+
+	color: #3498db;
+
+	margin-bottom: 0px;
+}
+
+#header2
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+
+	font-weight: 100;
+
+	color: #3498db;
+}
+
+/*#headerLogo
+{
+	width: 100px;
+	height: 100px;
+
+	margin-left: 50px;
+	margin-right: 50px; 
+}*/
+
+#headerContainer
+{
+	width: 80%;
+
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+	text-align: center;
+}
+
+.menuContainer
+{
+	width: 50%;
+	height: 50px;
+
+	margin-left: 25%;
+
+	padding-top: 10px;
+
+	border-top: 1px solid #444444;
+
+	display: table;
+	table-layout: fixed;
+}
+
+.menuContainer > li
+{
+	display: table-cell;
+}
+
+.menuContainer > li > a
+{
+	font-size: 25px;
+	color: #444444;
+}
+
+.sidebarContainer
+{
+	position: fixed;
+
+	left: 3%;
+	top: 245px;
+
+	width: 10%;
+
+	border-left: 1px solid #444444;
+
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.sidebarContainer > li
+{
+	display: block;
+
+	margin-bottom: 20px; 
+}
+
+.sideBarContainer > li > a
+{
+	color: #444444;
+}
+
+#mainContent
+{
+	width: 70%;
+	/*height: 200%;*/
+
+	margin-left: 15%;
+}
+
+.postContainer, .contentContainer
+{
+	border-left: 1px solid #444444;
+
+	padding: 20px;
+	padding-left: 10%;
+
+	margin-bottom: 50px;
+
+	width: 100%;
+	min-height: 200px;
+}
+
+.contentContainer img
+{
+	height: auto;
+	max-height: 800px;
+
+	width: auto;
+	max-width: 80%;
+
+	/*margin-left: 10%;*/
+}
+
+.contentContainer p
+{
+	width: 80%;
+
+	/*margin-left: 10%;*/
+}
+
+.postImg
+{
+	height: 600px;
+	width: auto;
+	
+	max-width: 80%;
+
+	/*max-height: 600px;*/
+
+	/*margin-left: 10%;*/
+}
+
+.postTitle
+{
+	margin-left: -3%;
+}
+
+#footerContainer
+{
+	border-top: 1px solid #444444;
+
+	padding-top: 20px;
+
+	text-align: center;
+}
+
+#footerMenu1
+{
+	border-top: none;
+
+	border-bottom: 1px solid #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
