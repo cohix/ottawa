@@ -1,4 +1,3 @@
-		
 <?php
 /**
  * The main post feed

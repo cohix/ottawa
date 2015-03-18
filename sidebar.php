@@ -1,5 +1,3 @@
-
-
 <div class = "sidebarContainer">
 	
 	<?php 
@@ -11,8 +9,7 @@
 		) );
 	?>
 
-	<?php
-		if( ! dynamic_sidebar( 'Left Sidebar' ) ) : ?>
+	<?php if( ! dynamic_sidebar( 'Left Sidebar' ) ) : ?>
 		
 		<h4> No Sidebar! </h4>
 
