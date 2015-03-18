@@ -1,14 +1,12 @@
 		
 <?php
 /**
- * The Template for displaying all single posts
+ * The main post feed
  *
  * @package WordPress
  * @subpackage ottawa
  * @since ottawa 1.0
  */?>
-
-
 
 
 <?php 

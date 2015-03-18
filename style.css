@@ -118,16 +118,21 @@ a
 	padding-top: 20px;
 }
 
-.sidebarContainer > li
+.sidebarMenuContainer > li
 {
 	display: block;
 
 	margin-bottom: 20px; 
 }
 
-.sideBarContainer > li > a
+.sidebarMenuContainer > li > a
 {
 	color: #444444;
+}
+
+.widgetWrapper
+{
+	margin-top: 40px;
 }
 
 #mainContent

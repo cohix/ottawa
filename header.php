@@ -21,11 +21,6 @@
 
 			<h2 id = "header2"> <?php bloginfo('description'); ?> </h2>
 
-		<!-- <img id = "headerLogo" src = ""> -->
-
-
-		<!-- wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => 'div', 'container_class' => 'menuContainer', 'items_wrap' => '%3$s') ); -->
-
 			<div class = "menuContainer">
 				<?php 
 				$locations = get_nav_menu_locations();
