@@ -1,52 +1,39 @@
 		
-		<?php
-		/**
-		 * The Template for displaying all single posts
-		 *
-		 * @package WordPress
-		 * @subpackage ottawa
-		 * @since ottawa 1.0
-		 */?>
+<?php
+/**
+ * The Template for displaying all single posts
+ *
+ * @package WordPress
+ * @subpackage ottawa
+ * @since ottawa 1.0
+ */?>
 
-<html>
 
-	<head>
 
-		<link href = "/wp-content/themes/ottawa/style.css" rel = "stylesheet" type = "text/css">
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+<?php 
+get_header();
 
-		<title> <?php bloginfo('title'); ?> </title>
-	</head>
+get_sidebar();
+?>
 
-	<body>
-		<?php 
-		get_header();
-
-		get_sidebar();
-		?>
-
-		<div id = "mainContent">
-			<?php
-			if( have_posts() ): while( have_posts() ): the_post();
-			?>
-				
-				<div class = "postContainer">
-					
-					<a href = "<?php the_permalink(); ?>"> <h2 class = "postTitle"> <?php the_title(); ?> </h2> </a>
-
-				</div>
-
-			<?php endwhile; else: ?>
-
-			<h1> Nothing Here </h1>
-
-			<?php endif;?>
+<div id = "mainContent">
+	<?php
+	if( have_posts() ): while( have_posts() ): the_post();
+	?>
+		
+		<div class = "postContainer">
+			
+			<a href = "<?php the_permalink(); ?>"> <h2 class = "postTitle"> <?php the_title(); ?> </h2> </a>
 
 		</div>
 
-		<?php get_footer(); ?>
+	<?php endwhile; else: ?>
 
-	</body>
+	<h1> Nothing Here </h1>
 
-</html>
+	<?php endif;?>
+
+</div>
+
+<?php get_footer(); ?>
