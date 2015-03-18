@@ -26,6 +26,8 @@ get_sidebar();
 			
 			<a href = "<?php the_permalink(); ?>"> <h2 class = "postTitle"> <?php the_title(); ?> </h2> </a>
 
+			 <?php the_excerpt(); ?> 
+
 		</div>
 
 	<?php endwhile; else: ?>
