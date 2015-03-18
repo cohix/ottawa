@@ -8,7 +8,7 @@
 
 	<?php 
 	
-		wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menuContainer', 'items_wrap' => '%3$s') );
+		wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => 'div', 'container_class' => 'menuContainer', 'items_wrap' => '%3$s') );
 
 	?>
 
